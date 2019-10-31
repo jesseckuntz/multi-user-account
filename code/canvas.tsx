@@ -14,4 +14,6 @@ export const colors = Object.freeze({
     "Background": "var(--token-c4aaa2da-1b29-45fa-854e-b8d2a5887aef, rgb(230, 242, 247))",
     /** #E1245A */
     "Actions": "var(--token-79e0ecd3-8ce1-414f-8620-e143863688d8, rgb(225, 36, 90))",
+    /** #007AC0 */
+    "Accessible Blue": "var(--token-22df6413-0ce6-44fd-a766-287583cbfede, rgb(0, 122, 192))",
 })
