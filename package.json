@@ -13,6 +13,7 @@
 	},
 	"author": "Jesse Kuntz",
 	"dependencies": {
+		"@framer/benjamin.input": "^1.4.0",
 		"@framer/mikejohnson.material-icons": "^1.3.0"
 	}
 }
