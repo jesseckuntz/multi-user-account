@@ -3,8 +3,10 @@ import { createDesignComponent, CanvasStore } from "framer"
 const canvas = CanvasStore.shared(); // CANVAS_DATA;
 export const Accordian_Header_Collapsed_ = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Label?:string}>(canvas, "id_w9dBnnhyI", {Label:"string"}, 588,59);
 export const Navbar = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_r94aTcCfU", {}, 1440,108);
-export const Page_Title = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_Gb5BRW9_8", {}, 1440,93);
+export const Page_Title = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Title?:string}>(canvas, "id_Gb5BRW9_8", {Title:"string"}, 1440,93);
 export const Secondary_Button = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_PtSpCt9Gd", {}, 235,44);
+export const Session_Details = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_g_khO5d8YIdOhBWifJ", {}, 601,120);
+export const Session_In_progress = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_p1dS5MPvF", {}, 690,270);
 export const Sidebar_Menu_Item = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Label?:string}>(canvas, "id_y3Lsqvzkd", {Label:"string"}, 245,19);
 
 export const colors = Object.freeze({
