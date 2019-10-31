@@ -1,44 +1,71 @@
 import { Data, Override } from "framer"
 
 const data = Data({
-    rotate: 0,
-    rotateY: 0,
-    toggle: true,
+    currentPage: 0,
+    showParentalControls: false,
 })
 
-export function Hover(): Override {
+export function TabContainer(): Override {
     return {
-        whileHover: { scale: 0.8 },
+        currentPage: data.currentPage,
     }
 }
 
-export function Draggable(): Override {
+export function ProgressTab(): Override {
     return {
-        drag: true,
-    }
-}
-
-export function Rotate(): Override {
-    return {
-        animate: { rotate: data.rotate },
+        style: {
+            borderBottom: data.currentPage == 0 ? "3px solid black" : "none",
+        },
         onTap() {
-            data.rotate = data.rotate + 90
+            data.currentPage = 0
         },
     }
 }
 
-export function FlipInput(): Override {
+export function UpcomingSessionsTab(): Override {
     return {
+        style: {
+            borderBottom: data.currentPage == 1 ? "3px solid black" : "none",
+        },
         onTap() {
-            const toggle = data.toggle
-            data.rotateY = toggle ? 180 : 0
-            data.toggle = !toggle
+            data.currentPage = 1
         },
     }
 }
 
-export function FlipOutput(): Override {
+export function SessionHistoryTab(): Override {
     return {
-        animate: { rotateY: data.rotateY },
+        style: {
+            borderBottom: data.currentPage == 2 ? "3px solid black" : "none",
+        },
+        onTap() {
+            data.currentPage = 2
+        },
+    }
+}
+
+export function TutorTab(): Override {
+    return {
+        style: {
+            borderBottom: data.currentPage == 3 ? "3px solid black" : "none",
+        },
+        onTap() {
+            data.currentPage = 3
+        },
+    }
+}
+
+// Account page
+export function AccoridionHeader(): Override {
+    return {
+        onTap() {
+            data.showParentalControls = !data.showParentalControls
+        },
+    }
+}
+
+export function ParentalControls(): Override {
+    return {
+        visible: data.showParentalControls ? true : false,
     }
 }
