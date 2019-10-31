@@ -127,6 +127,11 @@
   dependencies:
     styled-components "^4.0.3"
 
+"@framer/edoardo.web-ui-kit@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.framer.com/@framer/edoardo.web-ui-kit/-/@framer/edoardo.web-ui-kit-1.1.0.tgz#56fa16a49df31db8a53ad8b2469b0c27d64cd2ed"
+  integrity sha512-jycIinG+0OLIGcu2uxB3HRNDh6DrQ4h6fsArkPFF6L32H++AyBE60Yxh2H95TA8IYdTisc9ZZ9AqfAmxeSq9kg==
+
 "@framer/mikejohnson.material-icons@^1.3.0":
   version "1.3.0"
   resolved "https://registry.framer.com/@framer/mikejohnson.material-icons/-/@framer/mikejohnson.material-icons-1.3.0.tgz#8440b8b731918773028b7e6d15951cc519a5fd28"
