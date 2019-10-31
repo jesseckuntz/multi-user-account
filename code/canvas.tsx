@@ -2,6 +2,7 @@
 import { createDesignComponent, CanvasStore } from "framer"
 const canvas = CanvasStore.shared(); // CANVAS_DATA;
 export const Accordian_Header_Collapsed_ = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Label?:string}>(canvas, "id_w9dBnnhyI", {Label:"string"}, 588,59);
+export const Navbar_Billy_ = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_v3TclI9iy", {}, 1440,108);
 export const Navbar_Mom_ = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_r94aTcCfU", {}, 1440,108);
 export const Navbar_Susan_ = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_To3Qb4hiu", {}, 1440,108);
 export const Page_Title = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Title?:string}>(canvas, "id_Gb5BRW9_8", {Title:"string"}, 1440,93);
