@@ -9,7 +9,6 @@ export const Page_Title = createDesignComponent<{parentSize?:{width:number|strin
 export const Past_Session = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Label?:string,Label?:string}>(canvas, "id_DVsbwhg__", {Label:"string",Label:"string"}, 690,290);
 export const Secondary_Button = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Label?:string}>(canvas, "id_PtSpCt9Gd", {Label:"string"}, 235,44);
 export const Session_Details = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_g_khO5d8YIdOhBWifJ", {}, 601,120);
-export const Session_In_progress = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_p1dS5MPvF", {}, 690,270);
 export const Sidebar_Menu_Item = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,Label?:string}>(canvas, "id_y3Lsqvzkd", {Label:"string"}, 245,19);
 export const Upcoming_Session = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_g_khO5d8Y", {}, 690,299);
 
